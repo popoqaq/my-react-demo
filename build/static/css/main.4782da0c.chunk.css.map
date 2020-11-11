@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/style.css"],"names":[],"mappings":"AAAA,YACE,wBACF,CACA,MACE,WAAY,CACZ,aACF,CACA,YACE,UAAW,CACX,qBACF","file":"main.4782da0c.chunk.css","sourcesContent":["#root input{\r\n  border: 2px solid #fe7000;\r\n}\r\nul li{\r\n  width: 100px;\r\n  color: rgb(139, 136, 136);\r\n}\r\nul li:hover{\r\n  color: #fff;\r\n  background-color: pink;\r\n}"]}
