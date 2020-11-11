@@ -1,8 +1,9 @@
 {
   "name": "@popoqaq/my-react-demo",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
   "homepage": "./",
+  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.5",

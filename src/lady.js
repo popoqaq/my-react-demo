@@ -14,7 +14,7 @@ class lady extends Component {
         <input value={this.state.inputValue} onChange={this.inputChange.bind(this)} />
         <button onClick={this.addPerson.bind(this)}>添加人物</button>
         <p>输入的内容:<i>{this.state.inputValue}</i></p>
-
+        <p>点击人物名字删除</p>
         <ul>
           {
             this.state.list.map((item, index) => {
