@@ -1,0 +1,11 @@
+#root input{
+  border: 2px solid #fe7000;
+}
+ul li{
+  width: 100px;
+  color: rgb(139, 136, 136);
+}
+ul li:hover{
+  color: #fff;
+  background-color: pink;
+}
