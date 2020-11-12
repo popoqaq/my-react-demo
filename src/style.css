@@ -9,3 +9,10 @@ ul li:hover{
   color: #fff;
   background-color: pink;
 }
+
+.animation-text-enter{opacity: 0;}
+.animation-text-enter-active{opacity: 1;transition: opacity 2000ms;}
+.animation-text-enter-done{opacity: 1;}
+.animation-text-exit{opacity: 1;}
+.animation-text-exit-active{opacity: 0;transition: opacity 2000ms;}
+.animation-text-exit-done{opacity: 0;}

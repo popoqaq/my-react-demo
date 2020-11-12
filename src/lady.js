@@ -1,11 +1,26 @@
 import React, { Component, Fragment } from 'react'
 import LadyItem from './ladyItem'
+import Animation from './Animation'
 import './style.css'
+import axios from 'axios'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
 class lady extends Component {
   state = {
     inputValue: '',
-    list: ['见崎鸣', '初音未来']
+    list: []
+  }
+  componentDidMount () {
+    axios.get('https://www.easy-mock.com/mock/5fabb5615d1197774d6ab348/ReactDemo01/lady')
+      .then((res) => {
+        console.log('获取数据成功', JSON.stringify(res));
+        this.setState({
+          list: res.data.data
+        })
+      })
+      .catch((err) => {
+        console.log(err);
+      })
   }
   render () {
     return (
@@ -16,20 +31,30 @@ class lady extends Component {
         <p>输入的内容:<i>{this.state.inputValue}</i></p>
         <p>点击人物名字删除</p>
         <ul>
-          {
-            this.state.list.map((item, index) => {
-              return (
-                <LadyItem
-                  key={index + item}
-                  content={item}
-                  deletePerson={this.deletePerson.bind(this, index)}
-                  index={index}
-
-                />
-              )
-            })
-          }
+          <TransitionGroup>
+            {
+              this.state.list.map((item, index) => {
+                return (
+                  <CSSTransition
+                    timeout={2000}
+                    classNames="animation-text"
+                    unmountOnExit
+                    appear={true}
+                    key={index + item}
+                  >
+                    <LadyItem
+                      key={index + item}
+                      content={item}
+                      deletePerson={this.deletePerson.bind(this, index)}
+                      index={index}
+                    />
+                  </CSSTransition>
+                )
+              })
+            }
+          </TransitionGroup>
         </ul>
+        <Animation />
       </Fragment>
     );
   }
