@@ -2,7 +2,7 @@
   "name": "@popoqaq/my-react-demo",
   "version": "0.1.8",
   "private": false,
-  "homepage": ".",
+  "homepage": "https://github.com/popoqaq/my-react-demo/tree/gh-pages/build",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "7.12.3",
