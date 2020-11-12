@@ -2,7 +2,7 @@
   "name": "@popoqaq/my-react-demo",
   "version": "0.1.8",
   "private": false,
-  "homepage": "https://popoqaq.github.io/my-react-demo",
+  "homepage": "https://popoqaq.github.io",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
