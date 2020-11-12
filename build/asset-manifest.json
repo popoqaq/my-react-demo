@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.e9105154.chunk.css",
-    "main.js": "./static/js/main.9e53c7f9.chunk.js",
-    "main.js.map": "./static/js/main.9e53c7f9.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.7f19d6e8.js",
-    "runtime-main.js.map": "./static/js/runtime-main.7f19d6e8.js.map",
-    "static/js/2.e86fd591.chunk.js": "./static/js/2.e86fd591.chunk.js",
-    "static/js/2.e86fd591.chunk.js.map": "./static/js/2.e86fd591.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.e9105154.chunk.css.map": "./static/css/main.e9105154.chunk.css.map",
-    "static/js/2.e86fd591.chunk.js.LICENSE.txt": "./static/js/2.e86fd591.chunk.js.LICENSE.txt"
+    "main.css": "/popoqaq/my-react-demo/tree/gh-pages/build/static/css/main.e9105154.chunk.css",
+    "main.js": "/popoqaq/my-react-demo/tree/gh-pages/build/static/js/main.9e53c7f9.chunk.js",
+    "main.js.map": "/popoqaq/my-react-demo/tree/gh-pages/build/static/js/main.9e53c7f9.chunk.js.map",
+    "runtime-main.js": "/popoqaq/my-react-demo/tree/gh-pages/build/static/js/runtime-main.433d8577.js",
+    "runtime-main.js.map": "/popoqaq/my-react-demo/tree/gh-pages/build/static/js/runtime-main.433d8577.js.map",
+    "static/js/2.e86fd591.chunk.js": "/popoqaq/my-react-demo/tree/gh-pages/build/static/js/2.e86fd591.chunk.js",
+    "static/js/2.e86fd591.chunk.js.map": "/popoqaq/my-react-demo/tree/gh-pages/build/static/js/2.e86fd591.chunk.js.map",
+    "index.html": "/popoqaq/my-react-demo/tree/gh-pages/build/index.html",
+    "static/css/main.e9105154.chunk.css.map": "/popoqaq/my-react-demo/tree/gh-pages/build/static/css/main.e9105154.chunk.css.map",
+    "static/js/2.e86fd591.chunk.js.LICENSE.txt": "/popoqaq/my-react-demo/tree/gh-pages/build/static/js/2.e86fd591.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f19d6e8.js",
+    "static/js/runtime-main.433d8577.js",
     "static/js/2.e86fd591.chunk.js",
     "static/css/main.e9105154.chunk.css",
     "static/js/main.9e53c7f9.chunk.js"
